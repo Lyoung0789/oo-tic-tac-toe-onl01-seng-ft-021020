@@ -125,7 +125,7 @@ class TicTacToe
   #method to see if the game is over
   #if won returns a winner or full is true then the game is over
   def over?
-    if won? || full?
+    if won? || draw?
       return true 
     else 
       return false
