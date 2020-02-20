@@ -150,7 +150,7 @@ end
 def play
   until over? == true 
     turn
-    if turn_count%2==0
+    if turn_count
       draw?
     end 
   end
