@@ -150,7 +150,6 @@ end
 def play
   until over? == true 
     turn
-    draw?
   end
   
   if won?
